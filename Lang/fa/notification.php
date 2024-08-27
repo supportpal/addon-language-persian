@@ -8,9 +8,6 @@ return array(
     "new_reply"             => "یک پاسخ تیکت جدید",
     "new_reply_text"        => "پاسخ جدیدی برای تیکت #:item توسط :name ارسال شده است.",
 
-    "operator_login"        => "ورود اوپراتور به سیستم",
-    "operator_login_text"   => ":name به پنل کاربری وارد شد.",
-
     "failed_logins"         => "ورودهای ناموفق اوپراتورها",
     "new_comments"          => "نظرات جدید",
 
@@ -23,5 +20,11 @@ return array(
      * 2.1.1
      */
     "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+
+    /*
+     * 4.2.0
+     */
+    "new_mention"           => "New Mention",
+    "new_mention_text"      => ":name mentioned you in ticket #<a href=':route'>:number</a>.",
 
 );
