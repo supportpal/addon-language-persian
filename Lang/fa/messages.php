@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "بازگشت به :page",
 
-    "session_expired"       => "جلسه شما باطل شده است. لطفا مجددا وارد شوید.",
     "session_refresh"       => "جلسه شما اطل شده است. لطفا صفحه را رفرش کرده و مجددا تلاش کنید.",
 
     "general_error"         => "خطایی رخ داده است. لطفا دوباره تلاش کنید.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "ممنوع",
 
     "not_logged_exception"  => "<strong>مشکلی بوجود آمده است.</strong><br />لطفا به مدیر سیستم اطلاع رسانی کنید.",
-
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
 
     "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
 
@@ -167,5 +164,15 @@ return array(
      */
     "lock_timeout"          => "Lock Timeout",
     "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "جلسه شما باطل شده است. لطفا مجددا وارد شوید.",
 
 );
